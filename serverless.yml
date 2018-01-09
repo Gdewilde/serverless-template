@@ -11,6 +11,10 @@ functions:
       - http: get hello
 plugins:
   - serverless-webpack
+  - serverless-dynamodb-local
+  - serverless-offline
 
 custom:
   webpackIncludeModules: true
+  serverless-offline: 
+    port: 3051
