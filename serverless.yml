@@ -1,4 +1,4 @@
-service: webpack-template
+service: serverless-template
 
 provider:
   name: aws
