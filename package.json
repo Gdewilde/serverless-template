@@ -8,7 +8,8 @@
   },
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sls offline start"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +23,7 @@
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
-    "serverless-dynamodb-local": "^0.2.27",
+    "serverless-dynamodb-local": "^1.0.2",
     "serverless-offline": "^3.16.0",
     "serverless-webpack": "^4.4.0",
     "webpack": "^3.12.0",
